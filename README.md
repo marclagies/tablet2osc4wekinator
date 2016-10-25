@@ -1,7 +1,8 @@
 # tablet2osc4wekinator
-Send OSC messages with a graphic tablet.
+Send OSC messages with a graphics tablet.
 
-The program sends these six __stylus__ parameters via OSC:<br>
+This is the GUI version of stylus2osc4wekinator.<br><br>
+The program sends these six __stylus__ parameters (as floats) via the OSC protocol:<br>
 * x position
 * y position
 * pressure
@@ -10,18 +11,16 @@ The program sends these six __stylus__ parameters via OSC:<br>
 * rotation
 
 ## Installation
-Install __Qt 5.7__ and __xinput__ as well as the development versions of __liblo__ and __libXi__.<br>
-* Start Qt Creator.
-* Create new __Qt Widgets Application__.
-* Name the project __tablet2osc4wekinator__.
-* Close Project.
-* Copy _tablet2osc4wekinator_ files into project directory.
-* Open _tablet2osc4wekinator_ project and build project.
+You need __Qt 5__, __xinput__ as well as the development versions of __liblo__ and __libXi__.<br>
+Download the source. Open a terminal, change into the source directory and and type in the following commands:<br>
+* qmake
+* make
+* make clean
 
 
-If versions or paths of the required libraries are bad, try editing _tablet2osc4wekinator.pro_.<br>
+Now you should find the program _tablet2osc4wekinator_ in the source directory.<br>
 <br>
-You find the executable program in your build folder.<br>
+If versions or paths of the required libraries are bad, try editing _tablet2osc4wekinator.pro_.<br>
 
 ## Setup
 1. List devices on the command line:<br>
