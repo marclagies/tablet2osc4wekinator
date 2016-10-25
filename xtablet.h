@@ -1,10 +1,3 @@
-#ifndef XTABLET_H
-#define XTABLET_H
-
-#include <string.h>
-#include <string>
-#include <X11/extensions/XInput.h>
-
 // tablet2osc4wekinator
 // Author: Marc Lagies, 2016
 //
@@ -23,6 +16,14 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#ifndef XTABLET_H
+#define XTABLET_H
+
+#include <string.h>
+#include <string>
+#include <cstdio>
+#include <X11/extensions/XInput.h>
 
 #define MAXDEVICENAME 256
 #define MAXMESSAGE  512

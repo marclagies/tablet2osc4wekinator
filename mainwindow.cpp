@@ -135,7 +135,7 @@ void MainWindow::Run(void)
     tablet_thread->start();
 }
 
-[[noreturn]] void MainWindow::Stop(void)
+void MainWindow::Stop(void)
 {
     T->Enabled = false;
     tablet_thread->terminate();

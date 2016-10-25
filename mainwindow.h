@@ -21,7 +21,9 @@
 #define MAINWINDOW_H
 
 #include <QThread>
+#include <QStringList>
 #include "lo/lo.h"
+#include <cstdio>
 #include "ui_mainwindow.h"
 #include "xtablet.h"
 
@@ -55,7 +57,7 @@ public:
     void IncXICounter(void);
     void OscError(int num, const char *message);
     void Run();
-    [[noreturn]] void Stop();
+    void Stop();
     
 private slots:
     void on_pushButton_clicked();
