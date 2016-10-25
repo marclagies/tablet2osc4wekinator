@@ -1,7 +1,7 @@
 # tablet2osc4wekinator
 Send OSC messages with a graphics tablet.
 
-This is the GUI version of stylus2osc4wekinator.<br><br>
+This is the GUI version of [stylus2osc4wekinator](https://github.com/marclagies/stylus2osc4wekinator).<br><br>
 The program sends these six __stylus__ parameters (as floats) via the OSC protocol:<br>
 * x position
 * y position
